@@ -230,10 +230,10 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`studentid`, `student_username`, `FullName`, `Email`, `Password`, `PhoneNumber`, `studentpic`) VALUES
-(1, 'Tahmid12', 'Nazre Imam Tahmid', 'tahmid@gmail.com', '12', '0152648790', 'tahmid.jpg'),
-(3, 'Omur', 'Omur Faruk', 'omur@gmail.com', '123456', '029833356373', 'omur.jpg'),
-(4, 'Pronob20', 'Pronob', 'pronob@gmail.com', '123456', '4344654865769', 'pronob.jpg'),
-(22, 'Nabil24', 'Nasimul Haque', 'nabil123@gmail.com', '123', '01547896589', 'user2.png');
+(1, 'Rawfina03', 'Rawfina Auma', 'rawfina@gmail.com', '12', '0152648790', 'tahmid.jpg'),
+(3, 'Omar', 'Omar Faruk', 'omar@gmail.com', '123456', '029833356373', 'omur.jpg'),
+(4, 'Pronob20', 'Seth Kibet', 'skibet@gmail.com', '123456', '4344654865769', 'pronob.jpg'),
+(22, 'youngmulla', 'Precious Kerubo', 'pkerubo@gmail.com', '123', '01547896589', 'user2.png');
 
 -- --------------------------------------------------------
 
