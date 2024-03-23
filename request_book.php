@@ -57,7 +57,7 @@
                         <img src='images/".$row['bookpic']."'>
                         <div>
                             <p>";echo $row['bookname'];echo"</p>
-                            <small>Price: ";echo $row['price'];echo" Tk.</small><br>";?>
+                            <small>Price: ";echo $row['price'];echo" Ksh.</small><br>";?>
                             <a href="?req=<?php echo $row['bookid'];?>"><button type='submit' name='remove'>Remove</button></a>
                         </div>
                     </div>

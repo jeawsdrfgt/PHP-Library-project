@@ -88,11 +88,14 @@
                     echo "<td>"; echo $row['issuedate']; echo "</td>";
                     echo "<td>"; echo $row['returndate']; echo "</td>";
                     echo "<td>"; echo $row['approve']; echo "</td>";
-                    echo "<td>"; echo $row['fine']; echo " Tk."; echo "</td>";
+                    echo "<td>"; echo $row['fine']; echo " Ksh."; echo "</td>";
                     echo "<td>";?><a href="edit_issue_book.php?ed=<?php echo $row['studentid'];?>&ed1=<?php echo $row['bookid'];?>"><button style="font-weight:bold; width: 100px;" type="submit" name="submit1" class="btn btn-default actionbtn">Edit
 			        </button>
                     </a>
                     <a href="return_book.php?ed=<?php echo $row['studentid'];?>&ed1=<?php echo $row['bookid'];?>"><button style="font-weight:bold; width: 100px;" type="submit" name="submit1" class="btn btn-default actionbtn">Return
+			        </button>
+                    </a>
+                    <a href="sms_new.php?ed=<?php echo $row['studentid'];?>&ed1=<?php echo $row['bookid'];?>"><button style="font-weight:bold; width: 100px;" type="submit" name="submit1" class="btn btn-default actionbtn">Send Message
 			        </button>
                     </a>
 			        <?php 
@@ -160,11 +163,14 @@
                     echo "<td>"; echo $row['issuedate']; echo "</td>";
                     echo "<td>"; echo $row['returndate']; echo "</td>";
                     echo "<td>"; echo $row['approve']; echo "</td>";
-                    echo "<td>"; echo $row['fine']; echo " Tk."; echo "</td>";
+                    echo "<td>"; echo $row['fine']; echo " Ksh."; echo "</td>";
                     echo "<td>";?><a href="edit_issue_book.php?ed=<?php echo $row['studentid'];?>&ed1=<?php echo $row['bookid'];?>"><button style="font-weight:bold; width: 100px;" type="submit" name="submit1" class="btn btn-default actionbtn">Edit
 			        </button>
                     </a>
                     <a href="return_book.php?ed=<?php echo $row['studentid'];?>&ed1=<?php echo $row['bookid'];?>"><button style="font-weight:bold; width: 100px;" type="submit" name="submit1" class="btn btn-default actionbtn">Return
+			        </button>
+                    </a>
+                    <a href="sms.php?ed=<?php echo $row['studentid'];?>&ed1=<?php echo $row['bookid'];?>"><button style="font-weight:bold; width: 100px;" type="submit" name="submit1" class="btn btn-default actionbtn">Message
 			        </button>
                     </a>
 			        <?php 

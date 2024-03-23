@@ -2,6 +2,7 @@
 
 	include "connection.php";
     include "admin_navbar.php";
+   
 ?>
 
 <!DOCTYPE html>
@@ -87,7 +88,7 @@
                     echo "<td>"; echo $row['issuedate']; echo "</td>";
                     echo "<td>"; echo $row['returndate']; echo "</td>";
                     echo "<td>"; echo $row['approve']; echo "</td>";
-                    echo "<td>"; echo $row['fine']; echo " Tk."; echo "</td>";
+                    echo "<td>"; echo $row['fine']; echo " Ksh."; echo "</td>";
                     echo "</tr>";
                 }
                 echo "</table>";
@@ -150,7 +151,7 @@
                     echo "<td>"; echo $row['issuedate']; echo "</td>";
                     echo "<td>"; echo $row['returndate']; echo "</td>";
                     echo "<td>"; echo $row['approve']; echo "</td>";
-                    echo "<td>"; echo $row['fine']; echo " Tk."; echo "</td>";
+                    echo "<td>"; echo $row['fine']; echo " Ksh."; echo "</td>";
                     echo "</tr>";
             }
             echo "</table>";
